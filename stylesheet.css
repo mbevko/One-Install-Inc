@@ -288,3 +288,14 @@ footer {
   width: 300px;
   margin: 30px;
 }
+
+.scroll_logo {
+  position: fixed;
+  right: 3vw;
+  bottom: 8vh;
+  top: auto;
+  width: 7vh;
+  height: auto;
+  transition: 0.1s ease-out;
+  width: 25px;
+}
