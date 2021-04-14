@@ -17,7 +17,5 @@ let scrollObject = document.querySelector(".scroll_logo");
 
 
 window.addEventListener('scroll', () => {
-  scrollObject.style.cssText = `transform: rotate(${window.pageYOffset}deg)`;
-  
   stickyNavigation()
 });
