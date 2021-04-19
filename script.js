@@ -1,6 +1,4 @@
 const nav = document.querySelector(".nav_two");
-
-
 const stickyNavigation = () => { 
 const navTop = nav.offsetTop;
   
@@ -12,10 +10,6 @@ const navTop = nav.offsetTop;
 }
 let scrollObject = document.querySelector(".scroll_logo");
   
-  
-
-
-
 window.addEventListener('scroll', () => {
   stickyNavigation()
 });
