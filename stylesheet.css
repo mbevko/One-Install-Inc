@@ -10,12 +10,11 @@ body {
   display: flex;
   position: fixed;
   align-items: center;
-  justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   color: rgb(221, 221, 221);
   font-size: 10pt;  
   transition: .3s;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .nav ul {
@@ -27,6 +26,20 @@ body {
   cursor: pointer;
 }
 
+.nav a {
+  text-decoration: none;
+  color: rgb(221, 221, 221);
+}
+
+.nav_two a {
+  color: black;
+}
+
+.nav_logo {
+  width: 300px;
+  margin: 0;
+}
+
 .nav li:hover {
   color: white;
   transition: .4s;
@@ -34,13 +47,15 @@ body {
 
 .nav_one {
   z-index: 5;
+  justify-content: flex-end;
 }
 
 .nav_two {
   z-index: 7;
   background:#fff;
   color: black;
-  transform: translate3d(0, -100%, 0)
+  transform: translate3d(0, -100%, 0);
+  justify-content: space-between;
 }
 
 .divider {
@@ -301,3 +316,6 @@ footer {
   transition: 0.3s ease-out;
   width: 25px;
 }
+
+/* --------------------------- contact page ------------------------------- */
+
