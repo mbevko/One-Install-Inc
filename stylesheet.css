@@ -318,3 +318,115 @@ footer {
 
 /* --------------------------- contact page ------------------------------- */
 
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #2F2E2E;
+}
+
+.secondary_nav .nav {
+  display: flex;
+  justify-content: space-between;
+  width: 75vw;
+  margin: auto;
+  height: 100px;
+  align-items: flex-end;
+  color: black;
+}
+
+.secondary_nav ul {
+  width: 280px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondary_nav li {
+  list-style: none;
+  font-size: 12pt;
+  cursor: pointer;
+}
+
+.secondary_nav .line {
+  border-bottom: solid red 1px;
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.secondary_nav .head {
+  width: 75vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 10px;
+  font-size: 10pt;
+  color: grey;
+  font-weight: 400;
+}
+
+.secondary_nav .head a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 400;
+}
+
+.secondary_nav h1 {
+    font-size: 24pt;
+}
+
+.secondary_menu {
+  position: fixed;
+  display: flex;
+  width: 30px;
+  height: 15px;
+  top: 50px;
+  right: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.menu_line {
+  height: 2px;
+  width: 30px;
+  background: red;
+}
+
+.line_three {
+  width: 15px;
+}
+
+.secondary_page {
+    width: 75vw;
+    margin: auto;
+    display: flex;    
+    padding: 100px 0;
+    gap: 5px;
+    height: 1000px;
+    align-items: flex;
+}
+
+.secondary_page div {
+    width: 50%;
+    height: 70vh;
+    background: grey;
+    transition: 1s;
+}
+
+.left {
+    transform: translateX(-150%);
+    opacity: 0;
+}
+
+.right {
+  transform: translateX(150%);
+  opacity: 0;
+}
