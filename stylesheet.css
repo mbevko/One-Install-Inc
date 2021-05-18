@@ -3,7 +3,11 @@ body {
   background: #2F2E2E;
 }
 
-.nav {
+a {
+  text-decoration: none;
+}
+
+.index_nav {
   left: 0;
   top: 0;
   right: 0;
@@ -17,7 +21,7 @@ body {
   padding: 20px;
 }
 
-.nav ul {
+.index_nav ul {
   list-style: none;
   display: flex;
   width: 300px;
@@ -26,7 +30,7 @@ body {
   cursor: pointer;
 }
 
-.nav a {
+.index_nav a {
   text-decoration: none;
   color: rgb(221, 221, 221);
 }
@@ -40,7 +44,7 @@ body {
   margin: 0;
 }
 
-.nav li:hover {
+.nav_two li:hover {
   color: white;
   transition: .4s;
 }
@@ -191,6 +195,10 @@ header {
   width: 200px;
 }
 
+.about_us strong {
+  font-weight: bolder
+}
+
 .clients {
   background: white;
   display: flex;
@@ -221,13 +229,30 @@ header {
   font-family: 'Roboto', sans-serif;
   background: red;
   color: white;
-  padding: 10px 20px 10px 20px;
-  width: 150px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .serv_head {
   background: #2F2E2E;
   padding: 0 0 0 50px;
+}
+
+.serv_head h2 {
+  font-weight: normal;
+}
+
+.service_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.service_container img {
+  width: 400px;
 }
 
 details {
@@ -264,13 +289,13 @@ details p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.team {
+.testimonial_section {
   background: url(images/business.jpg);
   background-attachment: fixed;
   height: 600px;
 }
 
-.team_overlay {
+.testimonial_overlay {
   width: 100%;
   height: 100%;
   display: flex;
@@ -280,18 +305,65 @@ details p {
   backdrop-filter: contrast(.3);
 }
 
-.team_overlay h2 {
+.testimonial_overlay h2 {
   padding: 5px 20px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
+  font-family:  'Roboto', sans-serif;
+  font-weight: normal;
   background: red;
 }
 
-.team_overlay p {
-  width: 600px;
-  font-family: sans-serif;
+.testimonial_carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 200px;
+}
+
+.cycle_btn {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+.one {
+  display: block;
+}
+
+.testimonial_container {
+  width: 500px;
+  margin: 0 50px;
+}
+
+.testimonial {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
+
+.two {
+  display: none;
+  text-align: center;
+}
+
+.three {
+  display: none;
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+  text-align: center;
+}
+
+.fas {
+  color: black;
+  font-size: 30pt;
+}
+
 
 
 footer {
@@ -316,18 +388,7 @@ footer {
   width: 25px;
 }
 
-/* --------------------------- contact page ------------------------------- */
-
-* {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  background: #2F2E2E;
-}
+/* --------------------------- secondary-page nav ------------------------------- */
 
 .secondary_nav .nav {
   display: flex;
@@ -337,6 +398,16 @@ body {
   height: 100px;
   align-items: flex-end;
   color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  box-sizing: border-box;
+}
+
+.secondary_nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    box-sizing: border-box;
+    color: black;
 }
 
 .secondary_nav ul {
@@ -367,16 +438,23 @@ body {
   font-size: 10pt;
   color: grey;
   font-weight: 400;
+  font-family: 'Roboto', sans-serif;
 }
 
 .secondary_nav .head a {
   text-decoration: none;
   color: grey;
   font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  
 }
 
 .secondary_nav h1 {
     font-size: 24pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    box-sizing: border-box;
 }
 
 .secondary_menu {
@@ -430,3 +508,4 @@ body {
   transform: translateX(150%);
   opacity: 0;
 }
+
