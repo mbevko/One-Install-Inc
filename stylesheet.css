@@ -116,6 +116,11 @@ header {
   box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.75);   
 }
 
+.email a {
+  color: #C4C4C4;
+  text-decoration: none;
+}
+
 .fa {
   cursor: pointer;
 }
@@ -143,6 +148,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.learn_more_button a {
+  color: #C4C4C4;
+  text-decoration: none;
 }
 
 .learn_more_button p {
@@ -296,7 +306,7 @@ details p {
 .testimonial_section {
   background: url(images/business.jpg);
   background-attachment: fixed;
-  height: 800px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: space-around;
@@ -308,21 +318,30 @@ details p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
+
 
 .testimonial_overlay h2 {
+  color: black;
+  font-weight: bolder;
+  font-size: 22pt;
+  font-family: 'Robot', sans-serif;
   padding: 5px 20px;
-  font-family:  'Roboto', sans-serif;
-  font-weight: bold;
-  background: red;
+  margin: 60px 0 80px 0;
 }
 
+.testimonial_name {
+  font-weight: bold;
+  font-size: 18pt;
+  color: rgb(34, 116, 148);
+}
 
 .testimonial_container {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .testimonial {
@@ -334,7 +353,7 @@ details p {
   display: flex;
   flex-direction: column;
   padding: 40px;
-  color: white;
+  color: rgb(221, 221, 221);
   align-items: center;
   justify-content: space-around;
 }
@@ -382,7 +401,9 @@ footer a:hover {
   list-style: none;
   width: 100%;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
   justify-content: space-around;
+  font-weight: lighter;
 }
 
 .footer_links {
@@ -398,7 +419,6 @@ footer a {
   color: #C4C4C4;
   font-family: 'Roboto', sans-serif;
 }
-
 .footer_center {
   font-size: 24pt;
   text-align: center;
@@ -444,8 +464,13 @@ footer a {
 /* --------------------------- secondary-page nav ------------------------------- */
 
 .secondary_body {
+  background: grey;);
+}
+
+.secondary_nav {
   background: grey;
 }
+
 .secondary_nav .nav {
   display: flex;
   justify-content: space-between;
@@ -479,9 +504,12 @@ footer a {
   cursor: pointer;
 }
 
-.secondary_nav .line {
+ .line {
   width: 75vw;
   margin: 0 auto;
+  background: red;
+  height: 1px;
+  z-index: 100;
 }
 
 .secondary_nav .head {
@@ -491,14 +519,14 @@ footer a {
   margin: auto;
   padding-top: 10px;
   font-size: 10pt;
-  color: grey;
+  color: black;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
 
 .secondary_nav .head a {
   text-decoration: none;
-  color: grey;
+  color: black;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
@@ -550,7 +578,6 @@ footer a {
 .secondary_page div {
     width: 50%;
     height: 70vh;
-    background: grey;
     transition: 1s;
 }
 
