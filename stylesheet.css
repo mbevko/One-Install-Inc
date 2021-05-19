@@ -464,11 +464,11 @@ footer a {
 /* --------------------------- secondary-page nav ------------------------------- */
 
 .secondary_body {
-  background: grey;);
+  background: white;
 }
 
 .secondary_nav {
-  background: grey;
+  background: white;
 }
 
 .secondary_nav .nav {
@@ -573,21 +573,24 @@ footer a {
     gap: 5px;
     height: 1000px;
     align-items: flex;
+    flex-wrap: wrap;
 }
 
 .secondary_page div {
-    width: 50%;
+    width: 45%;
     height: 70vh;
     transition: 1s;
 }
 
 .left {
-    transform: translateX(-150%);
-    opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .right {
-  transform: translateX(150%);
-  opacity: 0;
+  display: flex;
+  justify-content: center;
 }
+
 
