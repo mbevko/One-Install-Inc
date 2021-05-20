@@ -531,6 +531,8 @@ footer a {
   align-items: center;
   height: 70vh;
   width: 600px;
+  transform: translateX(-100vw);
+  transition: 1s;
 }
 
 .right {
@@ -543,10 +545,12 @@ footer a {
   font-weight: 500;
   font-size: 10pt;
   width: 600px;
+  transform: translateX(100vw);
+  transition: 1s;
 }
 
 form {
-  height: 300px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
