@@ -234,7 +234,7 @@ summary:hover {
 
 summary {
   outline: none;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgba(56, 56, 56);
   padding: 10px 10px;
   background: linear-gradient(to right, rgba(255, 0, 0, 0.384) 50%, white 50%);
@@ -254,8 +254,6 @@ details p {
 }
 
 .testimonial_section {
-  background: url(images/business.jpg);
-  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -274,7 +272,7 @@ details p {
 
 .testimonial_overlay h2 {
   color: black;
-  font-weight: bolder;
+  font-weight: lighter;
   font-size: 22pt;
   font-family: 'Robot', sans-serif;
   padding: 5px 20px;
