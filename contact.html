@@ -43,8 +43,20 @@
         </div>
       <div class="right">
           <form name="contact" method="POST" data-netlify="true">
-            <input name="email" type="email"/>
-            <input type ="text" name="name"/>
+            <div class="form_name_container">
+              <label for="name">Name</label>
+              <input type ="text" name="firstName" placeholder="first" class="form_name" required>
+              <input type ="text" name="lastName" placeholder="last" class="form_name">
+            </div>
+            <div class="form_email_container">
+              <label for="email">Email</label>
+              <input name="email" type="email" class="form_email" required>
+            </div>
+            <div class="form_phone_container">
+              <label for="phone">Phone</label>
+              <input name="phone" type="phone" class="phone">
+            </div>
+            <textarea name="message" class="message" placeholder="How can we assist you?" rows="7"></textarea>
             <input type="submit" value="Submit">
             <div class="field">
               <div data-netlify-recaptcha="true"></div>
@@ -83,7 +95,7 @@
         </div>
         <div class="footer_end footer_container">
           <p class="licensed">Licensed and Insured<br>
-            <small>c 2020 LYNX all rights reserved.</small></p>
+            <small>© 2020 LYNX all rights reserved.</small></p>
         </div>
       </footer>
   </section>
