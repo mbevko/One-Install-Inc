@@ -16,6 +16,7 @@ window.addEventListener('scroll', () => {
   stickyNavigation()
 });
 
+
 //contact page
 let left = document.querySelector(".left");
 let right = document.querySelector(".right");
@@ -38,7 +39,12 @@ window.addEventListener('scroll', () => {
     console.log(scrollY);
 })
 
-//image carousel
+//contact responsive menu
+let secondaryMenu = document.querySelector(".secondary_menu");
+let responsiveNav = document.querySelector(".responsive_nav");
+
+
+//testimonial carousel
 
 
 let one = document.querySelector(".one");

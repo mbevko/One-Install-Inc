@@ -240,8 +240,8 @@ header {
   width: 70%;
   margin: 0 auto 0 auto;
   padding-top: 150px;
-  min-height: 600px;
-  max-height: 1000px;
+  height: 800px;
+  max-height: 1200px;
 }
 
 .services h2 {
@@ -557,7 +557,7 @@ footer a {
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
-  z-index: 2;
+  z-index: 5;
 }
 
 .menu_line {
@@ -568,6 +568,20 @@ footer a {
 
 .line_three {
   width: 15px;
+}
+
+.responsive_nav {
+  position: fixed;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom:0;
+  transform: translateX(-100vw);
 }
 
 .secondary_page {
