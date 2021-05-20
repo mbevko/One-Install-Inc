@@ -589,6 +589,7 @@ textarea {
   width: 100%;
   padding-left: 15px;
   padding-top: 5px;
+  resize: none;
 }
 
 
