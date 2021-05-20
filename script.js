@@ -36,7 +36,6 @@ window.addEventListener('scroll', () => {
     } else if(scrollY < 125){
         hamburgerMenu.style.cssText = "opacity: 0; pointer-events: none"
     }
-    console.log(scrollY);
 })
 
 //contact responsive menu
