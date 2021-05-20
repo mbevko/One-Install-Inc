@@ -4,66 +4,10 @@
 
 body {
   margin: 0;
-  background: #2F2E2E;
 }
 
 a {
   text-decoration: none;
-}
-
-.index_nav {
-  left: 0;
-  top: 0;
-  right: 0;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(221, 221, 221);
-  font-size: 10pt;  
-  transition: .3s;
-  padding: 20px;
-}
-
-.index_nav ul {
-  list-style: none;
-  display: flex;
-  width: 300px;
-  justify-content: space-around;
-  font-weight: light;
-  cursor: pointer;
-}
-
-.index_nav a {
-  text-decoration: none;
-  color: rgb(221, 221, 221);
-}
-
-.nav_two a {
-  color: black;
-}
-
-.nav_logo {
-  width: 300px;
-  margin: 0;
-}
-
-.nav_two li:hover {
-  color: white;
-  transition: .4s;
-}
-
-.nav_one {
-  z-index: 5;
-  justify-content: flex-end;
-}
-
-.nav_two {
-  z-index: 7;
-  background:#fff;
-  color: black;
-  transform: translate3d(0, -100%, 0);
-  justify-content: space-between;
 }
 
 .divider {
@@ -81,7 +25,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 95vh;
+  height: 80vh;
 }
 
 .onelogo {
@@ -90,8 +34,8 @@ header {
 }
 
 .slogan {
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
   font-size: 45pt;
   color: black;
   width: 420px;
@@ -179,15 +123,16 @@ header {
 }
 
 .main_body {
-  background: #C4C4C4;
+  background: white;
 }
 
 .about_us {
-  height: 600px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   flex-direction: row ;
   align-items: center;
+  flex-wrap: wrap-reverse;
 }
 
 .about_us img {
@@ -235,12 +180,12 @@ header {
 }
 
 .services {
-  background: #C4C4C4;
+  background: white;
   width: 70%;
-  margin: 0 auto 0 auto;
+  margin:  auto;
   padding-top: 150px;
-  min-height: 600px;
-  max-height: 1000px;
+  min-height: 1000px;
+  max-height: 1200px;
 }
 
 .services h2 {
@@ -267,6 +212,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .service_container img {
@@ -291,7 +237,7 @@ summary {
   font-family: sans-serif;
   color: rgba(56, 56, 56);
   padding: 10px 10px;
-  background: linear-gradient(to right, rgba(255, 0, 0, 0.384) 50%, #C2C2C2 50%);
+  background: linear-gradient(to right, rgba(255, 0, 0, 0.384) 50%, white 50%);
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
@@ -360,6 +306,7 @@ details p {
   color: rgb(221, 221, 221);
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 20px;
 }
 
 .fa-star {
@@ -380,7 +327,7 @@ footer {
   flex-wrap: wrap;
   padding: 10px 30px;
   color: #C4C4C4;
-  background: #2F2E2E;
+  background: white;
 }
 
 footer a:hover {
