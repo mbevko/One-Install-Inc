@@ -64,6 +64,7 @@ a {
   color: black;
   transform: translate3d(0, -100%, 0);
   justify-content: space-between;
+  
 }
 
 .divider {
@@ -586,6 +587,8 @@ footer a {
   align-items: center;
   height: 70vh;
   width: 600px;
+  transform: translateX(-100vw);
+  transition: 1s;
 }
 
 .right {
@@ -598,6 +601,8 @@ footer a {
   font-weight: 500;
   font-size: 10pt;
   width: 600px;
+  transform: translateX(100vw);
+  transition: 1s;
 }
 
 form {
