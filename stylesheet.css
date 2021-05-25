@@ -701,4 +701,12 @@ textarea {
  width: 350px;
 }
 
+.fa-chevron-left {
+  display: none;
+}
+
+.fa-chevron-right {
+  display: none;
+}
+
 }
