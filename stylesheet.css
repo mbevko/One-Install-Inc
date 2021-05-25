@@ -309,7 +309,6 @@ footer a:hover {
   height: 200px;
 }
 
-
 .social {
   display: flex;
   width: 100%;
@@ -393,7 +392,7 @@ footer a {
   background: white;
 }
 
-.secondary_nav .nav {
+.navi {
   display: flex;
   justify-content: space-between;
   width: 75vw;
@@ -545,6 +544,21 @@ form {
   padding-left: 15px
 }
 
+.submit_btn {
+  width: 100%;
+  height: 50px;
+  border: solid black 1px;
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+
+.submit_btn:hover {
+  background: black;
+  color: white;
+}
+  
+
 
 .phone {
   border: none;
@@ -603,11 +617,11 @@ textarea {
   }
 
   .fa-chevron-right {
-    display: none;
+    opacity: 0;
   }
 }
 
-@media( max-width: 800px ) {
+@media( max-width: 900px ) {
 
   .secondary_nav .nav {
     display: none;  
@@ -630,6 +644,7 @@ textarea {
     opacity: 1;
     top: 20px;
     right: 25px;
+    pointer-events: all;
   }
 
  .slogan {
@@ -684,12 +699,12 @@ textarea {
 }
 
 .testimonial_carousel {
- height: inherit;
+ height: 2900px;
  width: inherit;
 }
 
 .testimonial_container {
- height: 2500px;
+ height: 2900px;
  width: 100%;
  display: flex;
  flex-direction: column;
@@ -707,6 +722,84 @@ textarea {
 
 .fa-chevron-right {
   display: none;
+}
+
+.second_logo {
+  margin: auto;
+}
+
+.navi{
+  display: flex;
+  position: fixed;
+  background: #F0F2F6;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  top:0;
+  bottom: 0;
+  justify-content: flex-start;
+  padding-top: 80px;
+  padding-left: 15px;
+  align-items: flex-start;
+  transform: translateX(1000px);
+  transition: .3s;
+}
+
+.navi_closed {
+  transform: translateX(0);
+  transition: .3s;
+}
+
+.secondary_nav h1 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 25pt;
+}
+
+.main_menu_items {
+  flex-direction: column;
+}
+
+.main_menu_items a {
+  font-size: 30pt;
+}
+
+/*----------------MOBILE CONTACT PAGE---------------*/
+
+label {
+  display: block;
+  font-size: 14pt;
+}
+
+iframe {
+  width: 95%;
+}
+
+.form_name {
+  margin-bottom: 10px;
+  width: 350px;
+}
+
+.form_name_container {
+  justify-content: space-between;
+  align-items: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+}
+
+.form_input {
+  width: 350px;
+}
+
+.footer_container {
+  align-items: center;
+}
+
+footer {
+  justify-content: center;
+  height: inherit;
+  border-top: solid red 1px;
+  margin: 0 20px;
 }
 
 }

@@ -27,7 +27,7 @@ window.addEventListener('scroll', () => {
 
 //image carousel
 
-
+/*
 let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
@@ -50,3 +50,11 @@ cycleBtns.forEach(button => {
   console.log(counter)
   });
 });
+*/
+
+let mobileNav = document.querySelector(".navi");
+let menuBtn = document.querySelector(".secondary_menu");
+
+menuBtn.addEventListener('click', () => {
+  mobileNav.classList.toggle("navi_closed")
+})
