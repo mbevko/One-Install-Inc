@@ -568,6 +568,11 @@ textarea {
 
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
+
+  header {
+    flex-wrap: wrap;
+  }
+
   .onelogo {
     width: 350px;
   }
@@ -576,14 +581,36 @@ textarea {
     font-size: 40pt;
     width: 380px;
     height: 350px;
-    border: solid black ;
+  }
+
+  .about_us_content {
+    font-size: 25pt;
+    margin: 0 20px;
+    height: 500px;
+    width: inherit;
+  }
+
+  .services {
+    margin-left: 20px;
+  }
+
+  .testimonial_container {
+    width: 2500px;
+  }
+
+  .fa-chevron-left {
+    display: none;
+  }
+
+  .fa-chevron-right {
+    display: none;
   }
 }
 
 @media( max-width: 800px ) {
 
   .secondary_nav .nav {
-    display: none;
+    display: none;  
   }
 
   .secondary_nav {
@@ -601,6 +628,82 @@ textarea {
 
   .secondary_menu {
     opacity: 1;
+    top: 20px;
+    right: 40px;
   }
+
+ .slogan {
+   text-align: center;
+   font-size: 30pt;
+   height: 200px;
+   margin: 0;
+ }
+
+ header {
+   margin-top: 50px;
+   height: inherit;
+ }
+
+ .about_us {
+   height: 700px;
+ }
+
+ .services h2 {
+   font-size: 30pt;
+ }
+
+ details {
+   font-size: 20pt;
+   margin: 0;
+   padding: 0;
+ }
+
+ .client_logos img {
+   width: 300px;
+ }
+
+ .testimonial_heading {
+   font-size: 25pt;
+ }
+
+
+.testimonial_section {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+
+.testimonial_carousel {
+ height: inherit;
+ width: inherit;
+}
+
+.testimonial_container {
+ height: 2500px;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.testimonial {
+ font-family: 'Roboto', sans-serif;
+ font-size: 10pt;
+ text-align: center;
+ padding: 15px 10px;
+ height: 350px;
+ width: 350px;
+ border-radius: 20px;
+ background: rgb(255, 255, 255);
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+ display: inline-block;
+ transition: .4s;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
 
 }
