@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+.mobile_logo {
+  display: none;
+}
+
 .number {
   margin-right: 40px;
   font-weight: light;
@@ -147,7 +151,7 @@ header {
 .services {
   background: white;
   width: 70%;
-  margin: auto;
+  margin: 0 auto 100px auto;
   padding-top: 150px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -661,6 +665,10 @@ textarea {
    height: inherit;
  }
 
+ .main_body {
+   margin-top: 50px;
+ }
+
  .about_us {
    height: 700px;
  }
@@ -677,6 +685,7 @@ textarea {
 
  .client_logos img {
    width: 300px;
+   margin-bottom: 40px;
  }
 
  .clients_heading {
@@ -747,18 +756,24 @@ textarea {
   transition: .3s;
 }
 
+.mobile_logo {
+  display: block;
+  width: 400px;
+  margin: auto;
+}
+
 .navi_closed {
   transform: translateX(0);
   transition: .3s;
 }
 
 .secondary_nav h1 {
-  font-family: 'Rubik', sans-serif;
-  font-size: 25pt;
+  display: none;
 }
 
 .main_menu_items {
   flex-direction: column;
+  height: 300px;
 }
 
 .main_menu_items a {
