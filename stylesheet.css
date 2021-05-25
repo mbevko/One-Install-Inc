@@ -10,10 +10,6 @@ a {
   text-decoration: none;
 }
 
-.divider {
-  color: red;
-}
-
 .number {
   margin-right: 40px;
   font-weight: light;
@@ -570,3 +566,41 @@ textarea {
 }
 
 
+/*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
+@media( max-width: 1030px ) {
+  .onelogo {
+    width: 350px;
+  }
+
+  .slogan {
+    font-size: 40pt;
+    width: 380px;
+    height: 350px;
+    border: solid black ;
+  }
+}
+
+@media( max-width: 800px ) {
+
+  .secondary_nav .nav {
+    display: none;
+  }
+
+  .secondary_nav {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .secondary_nav .head {
+    width: 90vw;
+  }
+
+  .line {
+    width: 90vw;
+  }
+
+  .secondary_menu {
+    opacity: 1;
+  }
+
+}
