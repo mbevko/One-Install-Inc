@@ -25,43 +25,26 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 82vh;
 }
 
 .onelogo {
-  width: 480px;
+  width: 500px;
   margin-right: 20px;
 }
 
 .slogan {
   font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  font-size: 45pt;
+  font-size: 50pt;
   color: black;
-  width: 420px;
+  width: 490px;
   text-align: right;
-  height: 357px;
+  height: 420px;
 }
 
-.red_i {
-  color: #FF3D00;
-}
-
-.head_panel {
-  width: 80%;
-  position: absolute;
-  background: #333535;
-  height: 63px;
-  display: flex;
-  align-items: center;
-  bottom: 0;
-  color: #C4C4C4;
+.red_i { 
+  color: red;
   font-family: 'Roboto', sans-serif;
-  justify-content: space-between;
-  border-radius: 0 0 20px 20px;
-  -webkit-box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.75);   
 }
 
 .email a {
@@ -89,73 +72,33 @@ header {
   color: black;
 }
 
-.learn_more_button {
-  cursor: pointer;
-  height: 100%;
-  width: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.learn_more_button a {
-  color: #C4C4C4;
-  text-decoration: none;
-}
-
-.learn_more_button p {
-  display: inline;
-}
-
-.wifi_png {
-  width: 30px;
-  display: inline;
-}
-
-.wifi_png:hover {
-  width: 35px;
-  transition: .4s;
-}
-
-.email {
-  font-weight: lighter;
-  margin-right: 20px;
-}
-
 .main_body {
   background: white;
 }
 
 .about_us {
-  height: 1000px;
   display: flex;
-  justify-content: center;
-  flex-direction: row ;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-}
-
-.about_us img {
-  width: 250px;
-  margin-right: 10px;
-  margin-left: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
 }
 
 .about_us_content {
-  width: 500px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30pt;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  font-weight: lighter;
+  text-align: right;
+  width: 900px;
   margin: auto;
 }
 
-.about_us_content p {
-  font-family: sans-serif;
-}
-
 .about_us_content h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: bolder;
-  background: red;
   padding: 5px 10px;
-  width: 200px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 40pt;
 }
 
 .about_us strong {
@@ -165,47 +108,63 @@ header {
 .clients {
   background: white;
   display: flex;
+  flex-direction: column;
+  margin:auto;
+  width: 70%;
+}
+
+.client_logos {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 40px 0;
-  -webkit-box-shadow: 0px 1px 15px 11px rgba(0,0,0,1); 
-  box-shadow: 0px 1px 15px 11px rgb(146, 146, 146);
-  margin-bottom: 50px;
-  gap: 50px;
+  gap: 100px;
 }
 
-.clients img {
-  width: 200px;
+.anf_logo {
+  width: 231px;
+}
+
+.gibson_logo {
+  width: 230px;
+}
+
+.summit_logo {
+  width: 230px;
+}
+
+.bluestream_logo {
+  width: 400px;
+}
+
+.marriott_logo {
+  width: 400px;
+}
+
+.clients_heading {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40pt;
+  text-align: center;
 }
 
 .services {
   background: white;
   width: 70%;
-  margin:  auto;
+  margin: auto;
   padding-top: 150px;
-  min-height: 1000px;
-  max-height: 1200px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 30pt;
 }
 
 .services h2 {
-  font-family: 'Roboto', sans-serif;
-  background: red;
-  color: white;
-  width: 200px;
-  height: 50px;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+  font-size: 40pt;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-}
-
-.serv_head {
-  background: #2F2E2E;
-  padding: 0 0 0 50px;
-}
-
-.serv_head h2 {
-  font-weight: normal;
 }
 
 .service_container {
@@ -213,17 +172,12 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-}
-
-.service_container img {
-  width: 400px;
+  background: white;
 }
 
 details {
   cursor: pointer;
   padding: 10px;
-  border-bottom: solid white 1px;
-  width: 400px;
   outline: none;
 }
 
@@ -234,7 +188,7 @@ summary:hover {
 
 summary {
   outline: none;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: rgba(56, 56, 56);
   padding: 10px 10px;
   background: linear-gradient(to right, rgba(255, 0, 0, 0.384) 50%, white 50%);
@@ -250,64 +204,82 @@ summary::-webkit-details-marker {
 
 details p {
   color: black;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 20pt;
 }
+
+.testimonial_heading {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40pt;
+  text-align: center;
+}
+
 
 .testimonial_section {
-  background: url(images/business.jpg);
-  background-attachment: fixed;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: space-around;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
 }
 
-.testimonial_overlay {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
+.testimonial_carousel {
+ width: 1000px;
+ overflow: hidden;
 }
 
-
-.testimonial_overlay h2 {
-  color: black;
-  font-weight: bolder;
-  font-size: 22pt;
-  font-family: 'Robot', sans-serif;
-  padding: 5px 20px;
-  margin: 60px 0 80px 0;
-}
-
-.testimonial_name {
-  font-weight: bold;
-  font-size: 18pt;
-  color: rgb(34, 116, 148);
+.cycle_btn {
+ outline: none;
+ border: none;
+ background: none;
+ cursor: pointer;
 }
 
 .testimonial_container {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+ height: 460px;
+ width: 3000px;
+ display: flex;
+ justify-content: space-around;
 }
 
 .testimonial {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.7);
-  width: 350px;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  color: rgb(221, 221, 221);
-  align-items: center;
-  justify-content: space-around;
-  margin-bottom: 20px;
+ font-family: 'Roboto', sans-serif;
+ font-size: 10pt;
+ text-align: center;
+ padding: 20px 20px;
+ height: 370px;
+ width: 350px;
+ border-radius: 20px;
+ background: rgb(255, 255, 255);
+ box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+ display: inline-block;
+ transition: .4s;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
 }
+
+
+.fa-chevron-left {
+ color: black;
+ font-size: 30pt;
+}
+
+
+.fa-chevron-right {
+ color: black;
+ font-size: 30pt;
+}
+
+.fa-star {
+ color: gold;
+ font-size: 20pt;
+}
+
+.fa-quote-left {
+ font-size: 30pt;
+}
+
 
 .fa-star {
   color: gold;
@@ -380,6 +352,7 @@ footer a {
 
 .footer_right {
   text-align: right;
+  width: 300px;
 }
 
 
@@ -391,7 +364,9 @@ footer a {
 }
 
 .footer_end {
-  text-align: right;
+  text-align: center;
+  width: 100%;
+  height: 50px;
 }
 
 .second_logo {
@@ -533,6 +508,7 @@ footer a {
   align-items: center;
   height: 70vh;
   width: 600px;
+  transition: 1s;
 }
 
 .right {
@@ -545,10 +521,11 @@ footer a {
   font-weight: 500;
   font-size: 10pt;
   width: 600px;
+  transition: 1s;
 }
 
 form {
-  height: 300px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
