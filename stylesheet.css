@@ -413,7 +413,6 @@ footer a {
   height: 100px;
   align-items: flex-end;
   color: black;
-  font-family: 'Roboto', sans-serif;
   font-weight: 200;
   box-sizing: border-box;
 }
@@ -423,6 +422,7 @@ footer a {
     font-weight: 200;
     box-sizing: border-box;
     color: black;
+
 }
 
 .secondary_nav ul {
@@ -651,16 +651,12 @@ iframe {
 
   header {
     flex-wrap: wrap;
-  }
-
-  .onelogo {
-    width: 350px;
+    margin-bottom: 100px;
   }
 
   .slogan {
-    font-size: 40pt;
-    width: 380px;
-    height: 350px;
+    text-align: center;
+    width: 600px;
   }
 
   .about_us_content {
@@ -669,7 +665,6 @@ iframe {
     height: 500px;
     width: inherit;
   }
-
   .services {
     margin-left: 20px;
   }
@@ -719,9 +714,14 @@ iframe {
     pointer-events: all;
   }
 
+  
+  .onelogo {
+    width: 390px;
+  }
+
  .slogan {
    text-align: center;
-   font-size: 30pt;
+   font-size: 40pt;
    height: 200px;
    margin: 0;
  }
@@ -736,7 +736,7 @@ iframe {
  }
 
  .about_us {
-   height: 700px;
+  margin-bottom: 40px;
  }
 
  .services h2 {
