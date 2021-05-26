@@ -641,7 +641,7 @@ textarea {
 iframe {
   margin: 100px auto 0 auto;
   display: block;
-  width: 60%;
+  width: 100%;
  
 }
 
@@ -859,7 +859,26 @@ iframe {
 
 .secondary_page {
   width: 100vw;
+  margin: 150px 0 0 0;
+  justify-content: center;
 }
 
+form {
+  width: 95%;
+  margin: 100px auto 0 auto;
+}
+
+.name_container input {
+  width: 150px
+}
+
+.contact_info {
+  display: grid;
+  grid-template-rows: 80px 70px 70px 70px 90px;
+  grid-template-columns: 100px 210px;
+  align-content: start;
+  justify-content: center;
+  margin: auto;
+}
 
 }
