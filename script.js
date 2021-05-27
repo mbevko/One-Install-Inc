@@ -1,5 +1,6 @@
 //Mobile Menu Functionality
 
+let servicesLink = document.querySelector(".services_link")
 let mobileNav = document.querySelector(".navi");
 let menuBtn = document.querySelector(".secondary_menu");
 
