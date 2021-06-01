@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
 }
@@ -656,6 +652,11 @@ iframe {
  
 }
 
+@media (min-width: 1031px) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
