@@ -672,15 +672,11 @@ iframe {
 
   .about_us_content {
     font-size: 25pt;
-<<<<<<< HEAD
     margin: 0 15px;
     height: auto;
-=======
-    margin: 0 20px;
-    height: 700px;
->>>>>>> f745ee6a258523316c5e6d664e2bd86cf8d13e12
-    width: inherit;
+    width: 100%;
   }
+
   .services {
     margin: 0;
     padding: 0;
@@ -759,11 +755,8 @@ iframe {
  }
 
  .about_us {
-<<<<<<< HEAD
    height: auto;
-=======
-  margin-bottom: 40px;
->>>>>>> f745ee6a258523316c5e6d664e2bd86cf8d13e12
+   margin-bottom: 40px;
  }
 
  .services h2 {
