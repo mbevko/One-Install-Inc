@@ -670,7 +670,8 @@ iframe {
 
   .about_us_content {
     font-size: 25pt;
-    margin: 0 15px;
+    margin: 0;
+    padding: 15px;
     height: auto;
     width: 100%;
   }
