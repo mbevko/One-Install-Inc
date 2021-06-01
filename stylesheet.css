@@ -194,11 +194,11 @@ summary {
   background-size: 200% 100%;
   background-position: right bottom;
   transition: all .5s ease-out;
-} 
-
+  list-style-image: url(images/icons8-right-24.png);
+}
 
 summary::-webkit-details-marker {
-  display: none; 
+  list-style-image: url(images/icons8-right-24.png);
 }
 
 details p {
@@ -223,7 +223,8 @@ details p {
 }
 
 .testimonial_carousel {
- width: 1000px;
+ min-width: 1000px;
+ max-width: 1555px;
  overflow: hidden;
 }
 
@@ -794,6 +795,7 @@ iframe {
 }
 
 .testimonial_carousel {
+ min-width: inherit;
  height: 2900px;
  width: inherit;
 }
