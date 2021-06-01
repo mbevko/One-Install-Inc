@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -412,16 +416,18 @@ footer a {
   height: 100px;
   align-items: flex-end;
   color: black;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
   box-sizing: border-box;
+  z-index: 2;
 }
 
 .secondary_nav a {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    box-sizing: border-box;
-    color: black;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: black;
+}
+
+.navi_one_head {
+  font-weight: 700;
 }
 
 .secondary_nav ul {
@@ -453,7 +459,6 @@ footer a {
   padding-top: 10px;
   font-size: 10pt;
   color: black;
-  font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -514,10 +519,15 @@ footer a {
   align-content: start;
   justify-content: center;
   margin-right: 50px;
+  transform: translateX(-1200px);
+  transition: .8s;
 }
 
 .contact_info i {
   font-size: 22pt;
+}
+
+.contact_info a {
   align-self: center;
 }
 
@@ -579,6 +589,8 @@ form {
   justify-content: space-between;
   align-items: space-between;
   margin-left: 50px;
+  transform: translateX(1200px);
+  transition: .8s;
 }
 
 form h2 {
@@ -640,7 +652,7 @@ textarea {
 iframe {
   margin: 100px auto 0 auto;
   display: block;
-  width: 100%;
+  width: 800px;
  
 }
 
@@ -650,25 +662,25 @@ iframe {
 
   header {
     flex-wrap: wrap;
-  }
-
-  .onelogo {
-    width: 350px;
+    margin-bottom: 100px;
   }
 
   .slogan {
-    font-size: 40pt;
-    width: 380px;
-    height: 350px;
+    text-align: center;
+    width: 600px;
   }
 
   .about_us_content {
     font-size: 25pt;
+<<<<<<< HEAD
     margin: 0 15px;
     height: auto;
+=======
+    margin: 0 20px;
+    height: 700px;
+>>>>>>> f745ee6a258523316c5e6d664e2bd86cf8d13e12
     width: inherit;
   }
-
   .services {
     margin: 0;
     padding: 0;
@@ -725,9 +737,14 @@ iframe {
     pointer-events: all;
   }
 
+  
+  .onelogo {
+    width: 390px;
+  }
+
  .slogan {
    text-align: center;
-   font-size: 30pt;
+   font-size: 40pt;
    height: 200px;
    margin: 0;
  }
@@ -742,7 +759,11 @@ iframe {
  }
 
  .about_us {
+<<<<<<< HEAD
    height: auto;
+=======
+  margin-bottom: 40px;
+>>>>>>> f745ee6a258523316c5e6d664e2bd86cf8d13e12
  }
 
  .services h2 {

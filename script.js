@@ -1,33 +1,36 @@
+//Mobile Menu Functionality
+
+let servicesLink = document.querySelector(".services_link")
+let mobileNav = document.querySelector(".navi");
+let menuBtn = document.querySelector(".secondary_menu");
+
+menuBtn.addEventListener('click', () => {
+  mobileNav.classList.toggle("navi_closed")
+});
 
 
 //contact page
-/*
-let left = document.querySelector(".left");
-let right = document.querySelector(".right");
-let hamburgerMenu = document.querySelector(".secondary_menu")
+if(document.querySelector("form")){
+  let left = document.querySelector(".contact_info");
+  let right = document.querySelector("form");
 
-const contactAnimation = () => {
-  left.style.cssText = "transform: translateX(0); opacity: 1;"
-  right.style.cssText = "transform: translateX(0); opacity: 1;" 
-}
 
-window.onload(contactAnimation())
+  const contactAnimation = () => {
+    left.style.cssText = "transform: translateX(0); opacity: 1;"
+    right.style.cssText = "transform: translateX(0); opacity: 1;" 
+  };
 
-window.addEventListener('scroll', () => {
-    
-    if(scrollY >= 125){
-        hamburgerMenu.style.cssText = "opacity: 1; pointer-events: all"
-    } else if(scrollY < 125){
-        hamburgerMenu.style.cssText = "opacity: 0; pointer-events: none"
-    }
-    console.log(scrollY);
-})
-*/
+  window.onload(contactAnimation())
+} 
+
+
+
+
 
 
 //testimonial carousel
 
-
+/*
 let one = document.querySelector(".one");
 let two = document.querySelector(".two");
 let three = document.querySelector(".three");
@@ -50,11 +53,4 @@ cycleBtns.forEach(button => {
   console.log(counter)
   });
 });
-
-
-let mobileNav = document.querySelector(".navi");
-let menuBtn = document.querySelector(".secondary_menu");
-
-menuBtn.addEventListener('click', () => {
-  mobileNav.classList.toggle("navi_closed")
-})
+*/
