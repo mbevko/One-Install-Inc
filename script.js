@@ -8,6 +8,12 @@ menuBtn.addEventListener('click', () => {
   mobileNav.classList.toggle("navi_closed")
 });
 
+//closing the menu from home page through services mobile nav link
+if(document.querySelector(".services") && document.querySelector(".navi")){  
+  document.querySelector(".services_link").addEventListener('click', () => {
+    mobileNav.classList.toggle("navi_closed")
+  });
+}
 
 //contact page
 if(document.querySelector("form")){
@@ -20,8 +26,9 @@ if(document.querySelector("form")){
     right.style.cssText = "transform: translateX(0); opacity: 1;" 
   };
 
-  window.onload(contactAnimation())
-} 
+  window.onload = contactAnimation
+};
+
 
 
 
