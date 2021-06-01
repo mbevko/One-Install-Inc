@@ -260,22 +260,24 @@ details p {
   font-size: 15pt;
 }
 
-
-.fa-chevron-left {
- color: black;
- font-size: 30pt;
- opacity: 0;
- pointer-events: none;
+.google_review {
+  background: none;
+  border: solid silver 1px;
+  border-radius: 10px;
+  display: flex;
+  width: 200px;
+  cursor: pointer;
 }
 
-
-.fa-chevron-right {
- color: black;
- font-size: 30pt;
- opacity: 0;
- pointer-events: none;
+.g_logo {
+  width: 50px;
 }
 
+.review_link {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
 .fa-star {
  color: gold;
  font-size: 20pt;
@@ -284,7 +286,6 @@ details p {
 .fa-quote-left {
  font-size: 30pt;
 }
-
 
 .fa-star {
   color: gold;
@@ -777,15 +778,6 @@ iframe {
  .testimonial_heading {
    font-size: 25pt;
  }
-
-
-.testimonial_section {
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- width: 100vw;
-}
 
 .testimonial {
  width: 350px;
