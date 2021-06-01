@@ -152,7 +152,6 @@ header {
   background: white;
   width: 70%;
   margin: 0 auto 100px auto;
-  padding-top: 150px;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 30pt;
@@ -665,13 +664,20 @@ iframe {
 
   .about_us_content {
     font-size: 25pt;
-    margin: 0 20px;
-    height: 500px;
+    margin: 0 15px;
+    height: auto;
     width: inherit;
   }
 
   .services {
-    margin-left: 20px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  details p {
+    padding: 0 0 0 10px;
   }
 
   .testimonial_container {
@@ -736,7 +742,7 @@ iframe {
  }
 
  .about_us {
-   height: 700px;
+   height: auto;
  }
 
  .services h2 {
