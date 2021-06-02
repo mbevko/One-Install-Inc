@@ -272,22 +272,22 @@ details p {
 .g_logo {
   width: 50px;
 }
-
-.review_link {
-  display: block;
-  width: 200px;
-  margin: auto;
-}
-.fa-star {
- color: gold;
- font-size: 20pt;
-}
-
-.fa-quote-left {
- font-size: 30pt;
-}
-
-.fa-star {
+    
+.review_link {    
+  display: block;    
+  width: 200px;    
+  margin: auto;    
+}    
+.fa-star {    
+ color: gold;    
+ font-size: 20pt;    
+}    
+    
+.fa-quote-left {    
+ font-size: 30pt;    
+}    
+    
+.fa-star {    
   color: gold;
 }
 
