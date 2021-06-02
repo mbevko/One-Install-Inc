@@ -656,6 +656,28 @@ iframe {
   }
 }
 
+/*------------------------------------------------------- Our Work Page  -------------------------------------*/
+
+.ourwork_main {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-size: 30pt;
+  font-weight: lighter;
+}
+
+.ourwork_heading {
+  font-family: 'Rubik', sans-serif;
+}
+
+.ourwork_main {
+  margin-bottom: 100px;
+}
+
+
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
 
