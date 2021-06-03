@@ -272,22 +272,22 @@ details p {
 .g_logo {
   width: 50px;
 }
-
-.review_link {
-  display: block;
-  width: 200px;
-  margin: auto;
-}
-.fa-star {
- color: gold;
- font-size: 20pt;
-}
-
-.fa-quote-left {
- font-size: 30pt;
-}
-
-.fa-star {
+    
+.review_link {    
+  display: block;    
+  width: 200px;    
+  margin: auto;    
+}    
+.fa-star {    
+ color: gold;    
+ font-size: 20pt;    
+}    
+    
+.fa-quote-left {    
+ font-size: 30pt;    
+}    
+    
+.fa-star {    
   color: gold;
 }
 
@@ -655,6 +655,25 @@ iframe {
     scroll-behavior: smooth;
   }
 }
+
+/*------------------------------------------------------- Our Work Page  -------------------------------------*/
+
+.ourwork_main {
+  width: 75vw;
+  margin:  150px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30pt;
+  font-weight: lighter;
+}
+
+.ourwork_heading {
+  font-family: 'Rubik', sans-serif;
+  font-size: 40pt;
+}
+
 
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
