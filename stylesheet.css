@@ -74,6 +74,7 @@ header {
 
 .main_body {
   background: white;
+  margin-bottom: 100px;
 }
 
 .about_us {
@@ -435,6 +436,9 @@ footer a {
   list-style: none;
   font-size: 12pt;
   cursor: pointer;
+}
+.secondary_nav a:hover {
+  color: #B70A0A;
 }
 
  .line {
