@@ -654,12 +654,6 @@ iframe {
  
 }
 
-@media (min-width: 1250px) {
-  .fb {
-    transform: translateY(0)
-  }
-} 
-
 /*------------------------------------------------------- Our Work Page  -------------------------------------*/
 
 .ourwork_main {
@@ -701,13 +695,7 @@ iframe {
 .ourwork_list ul li {
   font-size: 16pt;
 }
-
-.fb {
-  padding: 0;
-  margin: 0;
-  transform: translateY(-150px);
-}
-
+  
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
   html {
@@ -926,18 +914,7 @@ form {
   justify-content: center;
   margin: auto;
 }
-
-.fb {
-  transform: translateY(0);
-}
-
-.ourwork_description {
-  align-items: center;
-}
-
 .ourwork_heading {
-  font-size: 26pt;
+  font-size: 24pt;
 }
-
-
 }
