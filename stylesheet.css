@@ -688,18 +688,31 @@ iframe {
   list-style: none;
   margin-left: -1em;
   font-weight: bold;
-  font-size: 20pt;
+  font-size: 24pt;
+  margin-bottom: 15px;
   font-family: 'Rubik', sans-serif;
 }
 
 .ourwork_list ul li {
-  font-size: 16pt;
+  font-size: 20pt;
+}
+
+.ourwork_gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  flex-wrap: wrap;
 }
 
 .gallery_photo {
   width: 200px;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
   html {
@@ -776,7 +789,6 @@ iframe {
     pointer-events: all;
   }
 
-  
   .onelogo {
     width: 390px;
   }
@@ -920,5 +932,10 @@ form {
 }
 .ourwork_heading {
   font-size: 24pt;
+}
+
+.gallery_photo {
+  width: 300px;
+  margin-bottom: 10px;
 }
 }
