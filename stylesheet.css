@@ -695,7 +695,11 @@ iframe {
 .ourwork_list ul li {
   font-size: 16pt;
 }
-  
+
+.gallery_photo {
+  width: 200px;
+}
+
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
   html {
