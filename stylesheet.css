@@ -425,8 +425,9 @@ footer a {
   font-weight: 700;
 }
 
+
 .secondary_nav ul {
-  width: 280px;
+  width: 360px;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -437,7 +438,7 @@ footer a {
   font-size: 12pt;
   cursor: pointer;
 }
-.secondary_nav a:hover {
+.main_menu_items a:hover {
   color: #B70A0A;
 }
 
@@ -706,12 +707,20 @@ iframe {
 
 .gallery_photo {
   width: 200px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+}
+
+.gallery_photo:hover {
+  transform:scale(2);
 }
 
 .col {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 5px;
 }
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
@@ -937,5 +946,9 @@ form {
 .gallery_photo {
   width: 300px;
   margin-bottom: 10px;
+}
+
+.gallery_photo:hover{
+  transform:scale(1);
 }
 }
