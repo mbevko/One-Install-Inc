@@ -708,12 +708,6 @@ iframe {
 .gallery_photo {
   width: 200px;
   object-fit: cover;
-  overflow: hidden;
-  transition: all .3s ease-in-out;
-}
-
-.gallery_photo:hover {
-  transform:scale(2);
 }
 
 .col {
@@ -721,7 +715,7 @@ iframe {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 5px;
-}
+} 
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
   html {
@@ -939,8 +933,9 @@ form {
   justify-content: center;
   margin: auto;
 }
+
 .ourwork_heading {
-  font-size: 24pt;
+  font-size: 28pt;
 }
 
 .gallery_photo {
