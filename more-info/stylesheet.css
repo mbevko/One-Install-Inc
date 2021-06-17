@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -717,9 +722,6 @@ iframe {
 } 
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
-  html {
-    scroll-behavior: smooth;
-  }
 
   header {
     flex-wrap: wrap;
