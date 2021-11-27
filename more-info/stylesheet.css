@@ -511,6 +511,7 @@ footer a {
   color: #C4C4C4;
   font-family: 'Roboto', sans-serif;
 }
+
 .footer_center {
   font-size: 24pt;
   text-align: center;
@@ -1137,4 +1138,5 @@ form {
 
 .carousel {
   width: 360px;
+}
 }
