@@ -52,6 +52,29 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
+/*-----------------------NOW HIRING-----------------------------*/
+
+.now_hiring {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: white;
+} 
+
+.now_hiring p {
+  background: black;
+  padding: 10px;
+}
+
+.now_hiring a{
+  color: red;
+}
+
+/* -------------------------END---------------------------------- */
+
 .email a {
   color: #C4C4C4;
   text-decoration: none;
