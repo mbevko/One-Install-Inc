@@ -881,6 +881,11 @@ iframe {
 /*------------------------------------------------------- MOBILE VIEW -------------------------------------*/
 @media( max-width: 1030px ) {
 
+  .now_hiring {
+    justify-content: flex-start;
+    width: 90vw;
+  }
+
   header {
     flex-wrap: wrap;
     margin-bottom: 100px;
